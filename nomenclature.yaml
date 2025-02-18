@@ -5,4 +5,25 @@ definitions:
   variable:
     repository: common-definitions
   region:
-    repository: common-definitions
+    repository:
+      name: common-definitions
+      include:
+        - hierarchy: common
+        - hierarchy: R5
+        - hierarchy: R9
+        - hierarchy: R10
+        - hierarchy: G20 Members
+        - hierarchy: MESSAGEix-GLOBIOM 1.1
+        - hierarchy: MESSAGEix-GLOBIOM 1.1-R12
+        - hierarchy: MESSAGEix-GLOBIOM 2.1-R12
+
+mappings:
+  repository:
+    name: common-definitions
+    include:
+      - MESSAGEix-GLOBIOM 1.1
+      - MESSAGEix-GLOBIOM 1.1-BM-R12
+      - MESSAGEix-GLOBIOM 1.1-M-R12
+      - MESSAGEix-GLOBIOM 1.1-MT-R12
+      - MESSAGEix-GLOBIOM 1.1-BMT-R12
+      - MESSAGEix-GLOBIOM 2.1-M-R12
