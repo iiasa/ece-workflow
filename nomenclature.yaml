@@ -16,6 +16,7 @@ definitions:
         - hierarchy: MESSAGEix-GLOBIOM 1.1
         - hierarchy: MESSAGEix-GLOBIOM 1.1-R12
         - hierarchy: MESSAGEix-GLOBIOM 2.1-R12
+        - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
 
 mappings:
   repository:
@@ -27,3 +28,4 @@ mappings:
       - MESSAGEix-GLOBIOM 1.1-MT-R12
       - MESSAGEix-GLOBIOM 1.1-BMT-R12
       - MESSAGEix-GLOBIOM 2.1-M-R12
+      - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
